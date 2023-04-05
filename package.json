@@ -1,0 +1,28 @@
+{
+	"name": "@moddable-node-red/mcu_restart",
+	"version": "1.0.0",
+	"description": "Restart microcontroller for Node-RED MCU Edition",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/phoddie/mcu_restart.git"
+	},
+	"keywords": [
+		"mcu",
+		"node-red"
+	],
+	"author": "Peter Hoddie",
+	"license": "LGPL-3.0-or-later",
+	"bugs": {
+		"url": "https://github.com/phoddie/mcu_restart/issues"
+	},
+	"homepage": "https://github.com/phoddie/mcu_restart#readme",
+	"node-red" : {
+		"version": ">=3.0.0",
+		"nodes": {
+			"mcu_restart": "mcu_restart.js"
+		}
+	}
+}
