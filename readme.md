@@ -1,7 +1,22 @@
-# Restart
+# Restart MCU
 
-A node for [Node-RED MCU Edition](https://github.com/phoddie/node-red-mcu).
+This node is designed for use with [Node-RED MCU Edition](https://github.com/phoddie/node_red_mcu).
 
-Restarts the microcontroller when a message is received.
+### Inputs
 
-When run in the Moddable SDK simulator, the restart node exits the simulator.
+: payload (any) :  payload is not used
+
+### Outputs
+
+None
+
+### Details
+
+The MCU is restarted when any message is received.
+
+When used in the Moddable SDK simulator, the restart node exits the simulator.
+
+### References
+
+ - [GitHub](https://github.com/phoddie/mcu_restart) - the nodes github repository
+ - [Node-RED MCU Edition](https://github.com/phoddie/node_red_mcu) - the Node-RED MCU Edition repository
