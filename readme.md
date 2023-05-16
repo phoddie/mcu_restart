@@ -1,4 +1,7 @@
 # Restart MCU
+Updated May 16, 2023
+
+> **Note**: This repository is obsolete. It was used for initial development of the Restart MCU node. The [implementation](https://github.com/phoddie/node-red-mcu/tree/main/nodes/restart) is now maintained in the Node-RED MCU Edition repository in the nodes directory.
 
 Restarts the MCU.
 
